@@ -1,0 +1,171 @@
+.header-color{
+    background: #10011b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4571fc, #bc1dfd, #10011b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4571fc, #bc1dfd, #10011b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .landing-grid{
+    background: #10011b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4571fc, #bc1dfd, #10011b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4571fc, #bc1dfd, #10011b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .avatar-img{
+    height: 250px;
+    margin-top: 5em;
+    border-radius: 50%;
+  }
+  
+  .banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links-1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .social-links-1 i{
+    color: white;
+    font-size: 3em;
+    padding: 8px;
+  
+  }
+  
+  .projects-grid{
+    display: flex;
+  }
+  
+  .contact-body{
+    margin:auto;
+    background: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border-top: 2px solid red; */
+    margin-bottom: 20px;
+  }
+  
+  .contact-grid h2{
+    font-family: Anton, sans-serif;
+  }
+  
+  .contact-grid p{
+    font-family: Oxygen, sans-serif;
+  }
+  
+  .contact-grid hr{
+    border-top: 2px dotted black;
+  }
+  
+  .contact-list i{
+    font-size: 20px;
+    padding-right: 5rem;
+  }
+  
+  .resume-right-col{
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  .customButton{
+    line-height:1.5px;
+    padding:25px 15px;
+    background-color:rgba(9,33,151,0.91);
+    color:white;
+    font-size:18px;
+    letter-spacing:1px;
+    margin:0px 20px;
+    border:0px;
+    box-shadow:5px 10px 18px #888888;
+    border-radius:6px;
+  }
+  
+  .customButton:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(67, 91, 206, 0.91);
+  }
+  .ripple {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .ripple:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .5s, opacity 1s;
+  }
+  
+  .ripple:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+  }
+  
+  .cardLink{
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 15px 10px;
+    color: grey;
+  
+  }
+  
+  .cardLink:hover{
+    color: #000000b0;
+    background-color: #8080803b;
+  }
