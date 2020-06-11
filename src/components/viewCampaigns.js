@@ -31,7 +31,7 @@ class ViewCampaigns extends React.Component{
                     rows={this.state.campaigns}>
                     <TableHeader name="mail" tooltip="Message of the Campaign">Mail</TableHeader>
                     <TableHeader name="subject" tooltip="Subject of the Campaign">Subject</TableHeader>
-                    <TableHeader name="scheduler" tooltip="Scheduler of the Campaign">Scheduler</TableHeader>
+                    <TableHeader name="schedule" tooltip="Scheduler of the Campaign">Schedule</TableHeader>
                     <TableHeader name="mode" tooltip="Mode of the Campaign">Mode</TableHeader>
                 </DataTable>
             </div>
